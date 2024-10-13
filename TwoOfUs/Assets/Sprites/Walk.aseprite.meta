@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ba6e89dacf221b4885abd6b2212edbd
+guid: 3ea4d00f0c74aef489080002bc2a0b89
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: BB_Frame_0
+  - name: Walk_Frame_0
     originalName: 
-    pivot: {x: 0.375, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
-      height: 21
-    spriteID: a098d471b1add56479110ec530fe5683
+      width: 32
+      height: 32
+    spriteID: 45d1ce18477ea324ea7c2c20b95fb68f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,38 +141,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: BB_Frame_1
+  - name: Walk_Frame_1
     originalName: 
-    pivot: {x: 0.375, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 28
-      y: 4
-      width: 16
-      height: 20
-    spriteID: ae0562c5911a18a4ab07636528e6bd2a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 4}
-  - name: BB_Frame_2
-    originalName: 
-    pivot: {x: 0.375, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 33
-      width: 16
-      height: 20
-    spriteID: b1525deaa8f99be41bcfc0cb1ac55aa0
+      y: 44
+      width: 32
+      height: 32
+    spriteID: 2f783501dc1d4cb489c53a2c105012f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +160,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 33}
-  - name: BB_Frame_3
+    uvTransform: {x: 4, y: 44}
+  - name: Walk_Frame_2
     originalName: 
-    pivot: {x: 0.375, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 33
-      width: 16
-      height: 20
-    spriteID: 55631e8e42d15a6419d441acc61b5126
+      x: 4
+      y: 84
+      width: 32
+      height: 32
+    spriteID: ab7a1cad7182ed4409e8998e03bf709b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,48 +180,68 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 33}
+    uvTransform: {x: 4, y: 84}
+  - name: Walk_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 32
+    spriteID: 0cc4a55bc363ada4484108fce4503411
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1621510786
-    name: BB
+    guid: -718690731
+    name: Walk
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: BB_Frame_0
+    - name: Walk_Frame_0
       frameIndex: 0
       cellRect:
-        x: 10
+        x: 0
         y: 0
-        width: 16
-        height: 21
-      spriteId: a098d471b1add56479110ec530fe5683
-    - name: BB_Frame_1
+        width: 32
+        height: 32
+      spriteId: 45d1ce18477ea324ea7c2c20b95fb68f
+    - name: Walk_Frame_1
       frameIndex: 1
       cellRect:
-        x: 10
+        x: 0
         y: 0
-        width: 16
-        height: 20
-      spriteId: ae0562c5911a18a4ab07636528e6bd2a
-    - name: BB_Frame_2
+        width: 32
+        height: 32
+      spriteId: 2f783501dc1d4cb489c53a2c105012f4
+    - name: Walk_Frame_2
       frameIndex: 2
       cellRect:
-        x: 10
+        x: 0
         y: 0
-        width: 16
-        height: 20
-      spriteId: b1525deaa8f99be41bcfc0cb1ac55aa0
-    - name: BB_Frame_3
+        width: 32
+        height: 32
+      spriteId: ab7a1cad7182ed4409e8998e03bf709b
+    - name: Walk_Frame_3
       frameIndex: 3
       cellRect:
-        x: 10
+        x: 0
         y: 0
-        width: 16
-        height: 20
-      spriteId: 55631e8e42d15a6419d441acc61b5126
+        width: 32
+        height: 32
+      spriteId: 0cc4a55bc363ada4484108fce4503411
     linkedCells: []
     parentIndex: -1
   platformSettings: []
